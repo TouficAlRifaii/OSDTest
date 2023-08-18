@@ -1,0 +1,43 @@
+.quote-bar-icon {
+  margin-top: 30px;
+  position: absolute;
+  right: 30px;
+  color: purple;
+  font-size: large;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.hidden-quote-bar {
+  background: transparent linear-gradient(180deg, #6e4c85 0%, #2d2b52 100%);
+  padding: 5px;
+  margin-top: 0px;
+  border: 1px solid #ccc;
+  height: 50px;
+  align-content: start;
+  position: relative;
+  width: 99.3%;
+  border : none;
+  color: white; 
+
+}
+
+.hidden-quote-bar .close-quote{
+  position: absolute;
+  top: 40%;
+  right: 50px;
+  cursor: pointer;
+  color: transparent;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+.hidden-quote-bar .close-quote:hover{
+  color: white;
+}
+
+.hidden-quote-bar p {
+  width: 330px;
+}
